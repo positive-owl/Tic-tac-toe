@@ -1,0 +1,24 @@
+.first , .second, .third{
+    height:100px;
+    width:300px;
+    background-color: rgb(218, 179, 129);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+}
+.square{
+    padding: 5px;
+    margin: 0 auto;
+    height:85px;
+    width: 80px;
+    background-color: rgb(209, 138, 56);
+}
+.image{
+    height:60px;
+    width: 50px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.winner{
+    background-color: cadetblue;
+}
